@@ -1,0 +1,36 @@
+contract#: 0x2F6c40e62A0a21357AC735DFCc543A5E571A4Cf0
+name: Promethium (based on Safemoon)
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+contract#: 
+name:  Radiant (Based on Marketing, Charity and dead wallet)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+Truffle Conplie
+truffle migrate --network ethTestnet/truffle migrate --reset --network ethTestnet
+truffle console --network ethertest  
+
+truffle run contract-size
