@@ -48,8 +48,8 @@ ganache -m 'dinosaur smoke method spread include legal obvious hole sun appear f
 
 let instance = await Promethium.deployed()
 let accounts = await web3.eth.getAccounts()
-
-let balance = await instance.getBalance(accounts[0])
+balanceOf
+let balance = await instance.balanceOf(accounts[0])
 balance.toString()
 
 let ether = await instance.getBalanceInEth(accounts[0])
@@ -64,8 +64,6 @@ received.toNumber()
 
 let newBalance = await instance.getBalance(accounts[0])
 newBalance.toNumber()
-
-
 
 
 
